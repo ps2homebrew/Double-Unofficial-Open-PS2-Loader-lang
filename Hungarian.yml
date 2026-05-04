@@ -51,7 +51,7 @@ translations:
   FAST: Gyors
   DEFDEVICE: Alapértelmezett menü
   LOAD_FROM_DISC: Lemezről való beolvasás
-  PLEASE_WAIT: Kérem várjon
+  PLEASE_WAIT: Kis türelmet
   ERROR_LOADING_ID: Hiba a Játék ID betöltése közben
   AUTOSORT: Automatikus rendezés
   ERR_LOADING_LANGFILE: Hiba a nyelv fájl betöltésnél
@@ -96,14 +96,14 @@ translations:
   USER: Felhasználónév
   PASSWORD: Jelszó
   NOT_SET: <nincs megadva>
-  ADDRESS_TYPE: Cím típus
+  ADDRESS_TYPE: Címtípus
   ADDR_TYPE_IP:
   - untranslated
   - original: IP
   ADDR_TYPE_NETBIOS:
   - untranslated
   - original: NetBIOS
-  ACCEPT: Elfogad
+  ACCEPT: Elfogadás
   DELETE_WARNING: Az elem véglegesen törlésre kerül, folytatja?
   RENAME: Átnevezés
   DELETE: Törlés
@@ -123,10 +123,10 @@ translations:
   HINT_MODE5: DVD-DL emulálása
   HINT_MODE6: IGR letiltása
   HINT_VMC_SIZE: A méretváltoztatás leformázza a VMC-t
-  CREATE: Létrehoz
-  START: Indít
-  MODIFY: Módosít
-  ABORT: Megszakít
+  CREATE: Létrehozás
+  START: Indítás
+  MODIFY: Módosítás
+  ABORT: Megszakítás
   RESET: Visszaállítás
   USE_GENERIC: Generikus használata
   VMC_SCREEN: VMC konfiguráció
@@ -146,7 +146,7 @@ translations:
   HINT_EXITPATH: Testreszabott ELF bootolása egy IGR után
   HINT_SPINDOWN: Érték percben, 0 a kikapcsolás letiltása
   HDD_SPINDOWN: Automatikus merevlemez kikapcsolás
-  VMODE: Videó mód
+  VMODE: Videómód
   UICOLOR: Párbeszédablak színe
   SELCOLOR: Kiválasztott elem színe
   RESETCOLOR: Színek visszaállítása
@@ -179,10 +179,10 @@ translations:
   MODE6: Mód 6
   GSCONFIG: GSM konfiguráció
   ETH_OPMODE: Ethernet kapcsolat módja
-  ETH_100MFDX: 100Mbit full-duplex
-  ETH_100MHDX: 100Mbit half-duplex
-  ETH_10MFDX: 10Mbit full-duplex
-  ETH_10MHDX: 10Mbit half-duplex
+  ETH_100MFDX: 100 Mbit full-duplex
+  ETH_100MHDX: 100 Mbit half-duplex
+  ETH_10MFDX: 10 Mbit full-duplex
+  ETH_10MHDX: 10 Mbit half-duplex
   GSM_SETTINGS: GSM beállítások
   ENABLEGSM:
   - untranslated
@@ -202,9 +202,9 @@ translations:
   CHEAT_SETTINGS: Csalás beállítások
   ENABLECHEAT:
   - untranslated
-  - original: PS2RD Cheat Engine
+  - original: PS2RD Csalásmotor
   HINT_ENABLECHEAT: Engedi a PS2RD csalásmotornak, hogy patch-elje a játékokat.
-  CHEATMODE: PS2RD csalásmotor mód
+  CHEATMODE: PS2RD Csalásmotor mód
   HINT_CHEATMODE: Auto-kiválaszt vagy játékcsalások kiválasztása
   CHEATMODEAUTO: Csalások Auto-kiválasztása
   CHEATMODESELECT: Játékcsalások kiválasztása
@@ -213,7 +213,7 @@ translations:
   DL_DEFAULTS: Alapértelmezések letöltése
   NET_UPDATE: Hálózati frissítés
   NET_UPDATE_ALL: Létező rekordok felülírása
-  NET_UPDATE_FAILED: Frissítés sikertelen.
+  NET_UPDATE_FAILED: Sikertelen frissítés.
   NET_UPDATE_CONN_FAILED: Nem sikerült csatlakozni a frissítő szerverhez.
   NET_UPDATE_DONE: Frissítés befejezve.
   NET_UPDATE_CANCELLED: Frissítés visszavonva.
@@ -297,21 +297,13 @@ translations:
   BOOT_SND: Boot effekt
   SFX_VOLUME: Hanghatások hangereje
   BOOT_SND_VOLUME: Boot effekt hangereje
-  CFM_VMODE_CHG: jóváhagyja a Videó mód változtatását?
+  CFM_VMODE_CHG: Jóváhagyja a Videó mód változtatását?
   CACHE_HDD_GAME_LIST: Játéklista cachelés (HDD)
   ENABLE_NOTIFICATIONS: Értesítések
-  CFG_NOTIFICATION:
-  - untranslated
-  - original: Config loaded from %s
-  THM_NOTIFICATION:
-  - untranslated
-  - original: Theme loaded from %s
-  LNG_NOTIFICATION:
-  - untranslated
-  - original: Language loaded from %s
-  PARTITION_NOTIFICATION:
-  - untranslated
-  - original: '%s partíció mountolva.'
+  CFG_NOTIFICATION: konfiguráció betöltve innen %s
+  THM_NOTIFICATION: Téma betöltve innen %s
+  LNG_NOTIFICATION: Nylev betöltve innen %s
+  PARTITION_NOTIFICATION: '%s partíció mountolva.'
   OPTIONS: Opciók
   GAME_SETTINGS_SAVED: Játékbeállítások elmentve.
   GAME_SETTINGS_REMOVED: '%s beállítások eltávolítva'
@@ -327,12 +319,10 @@ translations:
   INFO_RELEASE: Kiadás
   INFO_DEVELOPER: Fejlesztő
   INFO_DESCRIPTION: Leírás
-  BLOCKDEVICE_SETTINGS:
-  - untranslated
-  - original: Block Devices
-  CONTROLLER_SETTINGS: Kontrollerbeállítások
-  HINT_BDM_START: A Block Device Manager ki/bekapcsolása.
-  HINT_BLOCK_DEVICES: Ki/bekapcsolja a Block eszközöket (pl. USB).
+  BLOCKDEVICE_SETTINGS: Blokk eszközök
+  CONTROLLER_SETTINGS: Kontroller beállítások
+  HINT_BDM_START: A Blokk eszköz Kezelő ki/bekapcsolása.
+  HINT_BLOCK_DEVICES: Ki/bekapcsolja a Blokk eszközöket (pl. USB).
   USB_GAMES: USB játékok
   ILINK_GAMES: iLink játékok
   MX4SIO_GAMES: MX4SIO játékok
@@ -353,7 +343,7 @@ translations:
   HINT_PADMACRO_INVERT_AXIS:
   - untranslated
   - original: Invert analog stick axis
-  TURBO_SPEED: Turbo gomb sebessége
+  TURBO_SPEED: Turbó gomb sebessége
   HINT_TURBO_SPEED: Milyen gyorsan nyomkodja a gombot, ha a turbó aktív
   ACT_WHILE_PRESSED: Amíg a gomb lenyomva van
   ACT_TOGGLED: A gombbal átkapcsolható
@@ -374,7 +364,7 @@ translations:
   ENABLE_LNG: Nyelv módosítása
   BGM: Háttérzene
   BGM_VOLUME: Háttérzene hangerő
-  DEF_BGM_PATH: Téma alapértelmezett zenéje
+  DEF_BGM_PATH: Téma alapértelmezett zene
   DEF_BGM_PATH_HINT:
   - untranslated
   - original: Set path to stream music for internal theme.
@@ -384,15 +374,9 @@ translations:
   CHEAT_SELECTION:
   - untranslated
   - original: Cheat Selection 
-  FAV:
-  - untranslated
-  - original: Favourites
-  FAVMODE:
-  - untranslated
-  - original: Favourites Start Mode 
-  FAV_HINT:
-  - untranslated
-  - original: Favourite
+  FAV: Kedvencek
+  FAVMODE: Kedvencek startmód
+  FAV_HINT: Kedvelés
   FAV_MSG:
   - untranslated
   - original: '%s not allowed through Favourites Menu.'
@@ -402,45 +386,29 @@ translations:
   BDM_DEBUG:
   - untranslated
   - original: BD Debug Log
-  MODE7:
-  - untranslated
-  - original: Mode 7
+  MODE7: Mode 7
   HINT_MODE7:
   - untranslated
   - original: Patch IOP Buffer Overrun
   DISABLE_ALL:
   - untranslated
   - original: Disable All
-  ARCHIVEDART:
-  - untranslated
-  - original: Archived Art
-  MMCE:
-  - untranslated
-  - original: MMCE
-  MMCE_GAMES:
-  - untranslated
-  - original: MMCE Games
-  MMCEMODE:
-  - untranslated
-  - original: MMCE Start Mode
+  ARCHIVEDART: Arhivált Art
+  MMCE: MMCE
+  MMCE_GAMES: MMCE játékok
+  MMCEMODE: MMCE startmód
   MMCE_PREFIX:
   - untranslated
   - original: MMCE Prefix Path 
-  MMCE_SLOT:
-  - untranslated
-  - original: MMCE Slot
+  MMCE_SLOT: MMCE foglalat
   MMCEIGR_SLOT:
   - untranslated
   - original: IGR Bootcard Slot(s)
   HINT_MMCEIGR_SLOT:
   - untranslated
   - original: Switch to bootcard cmd will be sent to the selected slot(s) on IGR
-  MMCE_ADVANCED:
-  - untranslated
-  - original: Advanced
-  MMCE_SETTINGS:
-  - untranslated
-  - original: MMCE Settings
+  MMCE_ADVANCED: Haladó
+  MMCE_SETTINGS: MMCE beállítások
   MMCE_SEMA:
   - untranslated
   - original: Lock Sema Enqueuing Method
