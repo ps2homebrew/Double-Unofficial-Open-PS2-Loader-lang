@@ -140,7 +140,7 @@ translations:
   ERR_VMC_CONTINUE: Hiba a VMC-vel %s, folytatás a fizikai MC-vel (foglalat %d) ?
   AUTOREFRESH: Automatikus frissítés
   ABOUT: Névjegy
-  DEVS: Kódolók
+  DEVS: Kóderek
   QANDA: Minőségbiztosítás
   BDM_PREFIX: BDM előtag elérési út
   HINT_EXITPATH: Testreszabott ELF bootolása egy IGR után
@@ -200,15 +200,13 @@ translations:
   GSMSKIPVIDEOS: FMV átugrása
   HINT_GSMSKIPVIDEOS: Átugorja a Full Motion videókat
   CHEAT_SETTINGS: Csalás beállítások
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Csalásmotor
+  ENABLECHEAT: PS2RD Csalásmotor
   HINT_ENABLECHEAT: Engedi a PS2RD csalásmotornak, hogy patch-elje a játékokat.
   CHEATMODE: PS2RD Csalásmotor mód
-  HINT_CHEATMODE: Auto-kiválaszt vagy játékcsalások kiválasztása
+  HINT_CHEATMODE: Auto-kiválasztás vagy játékcsalások kiválasztása
   CHEATMODEAUTO: Csalások Auto-kiválasztása
   CHEATMODESELECT: Játékcsalások kiválasztása
-  ERR_CHEATS_LOAD_FAILED: 'Hiba: A Csalásfájl betöltése sikertelen'
+  ERR_CHEATS_LOAD_FAILED: 'Hiba: a Csalásfájl betöltése sikertelen'
   NO_CHEATS_FOUND: Nem találhatóak csalások
   DL_DEFAULTS: Alapértelmezések letöltése
   NET_UPDATE: Hálózati frissítés
@@ -226,10 +224,8 @@ translations:
   PS2LOGO: PS2 logó
   HINT_PS2LOGO: Csak egy érvényes lemez logónál jelenik meg, amely egyezik a konzol régiójával
   PADEMUCONFIG: PADEMU konfigurálása
-  PADEMU_SETTINGS: Pad Emulator beállítások
-  PADEMU_ENABLE:
-  - untranslated
-  - original: Pad Emulator
+  PADEMU_SETTINGS: PadEmulátor beállítások
+  PADEMU_ENABLE: PadEmulátor
   HINT_PADEMU_ENABLE: Be/ki kapcsolja a PadEmulátor-t a kiválaszott játékhoz.
   PADEMU_MODE: Pad Emulátor mód
   HINT_PADEMU_MODE: Válassza ki a PadEmulátor módját.
@@ -300,9 +296,9 @@ translations:
   CFM_VMODE_CHG: Jóváhagyja a Videó mód változtatását?
   CACHE_HDD_GAME_LIST: Játéklista cachelés (HDD)
   ENABLE_NOTIFICATIONS: Értesítések
-  CFG_NOTIFICATION: konfiguráció betöltve innen %s
+  CFG_NOTIFICATION: Konfiguráció betöltve innen %s
   THM_NOTIFICATION: Téma betöltve innen %s
-  LNG_NOTIFICATION: Nylev betöltve innen %s
+  LNG_NOTIFICATION: Nyelv betöltve innen %s
   PARTITION_NOTIFICATION: '%s partíció mountolva.'
   OPTIONS: Opciók
   GAME_SETTINGS_SAVED: Játékbeállítások elmentve.
@@ -364,10 +360,8 @@ translations:
   ENABLE_LNG: Nyelv módosítása
   BGM: Háttérzene
   BGM_VOLUME: Háttérzene hangerő
-  DEF_BGM_PATH: Téma alapértelmezett zene
-  DEF_BGM_PATH_HINT:
-  - untranslated
-  - original: Set path to stream music for internal theme.
+  DEF_BGM_PATH: Téma alapértelmezett háttérzenéje
+  DEF_BGM_PATH_HINT: A belső téma háttérzene útvonala.
   HDD_HINT:
   - untranslated
   - original: Only one HDD allowed, enabling locks APA or GPT.
