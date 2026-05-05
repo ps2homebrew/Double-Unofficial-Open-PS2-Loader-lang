@@ -19,7 +19,7 @@ translations:
   APPS: Alkalmazások
   THEME: Téma
   LANGUAGE: Nyelv
-  CONFIRMATION_POFF: A rendszer le fog állni.
+  CONFIRMATION_POFF: Leállítja a rendszert?
   CONFIRMATION_EXIT: Kilépés a Browser-be?
   CONFIRMATION_CANCEL_UPDATE: Frissítés visszavonása?
   HDD_NOT_CONNECTED_ERROR: '%d: Merevlemez nem található'
