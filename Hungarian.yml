@@ -231,23 +231,16 @@ translations:
   SUPFEATURES: 'Támogatott funkciók:'
   'YES': Igen
   'NO': Nem
-  BT_SUPPORTED: A Bluetooth adapternek teljes mértékben kompatibilisnek kell lennie
-    a DS3/DS4 kontrollerekkel.
-  BT_NOTSUPPORTED: A Bluetooth adapter nem biztos, hogy megfelelően fog működni DS3/DS4
-    kontrollerekkel.
+  BT_SUPPORTED: A Bluetooth adapternek teljes mértékben kompatibilisnek kell lennie a DS3/DS4 kontrollerekkel.
+  BT_NOTSUPPORTED: A Bluetooth adapter nem biztos, hogy megfelelően fog működni DS3/DS4 kontrollerekkel.
   MTAP_ENABLE: Multitap emuláció
   HINT_MTAP_ENABLE: Ki/be kapcsolja a Multitap emulációt a kiválasztott játékhoz.
   MTAP_PORT: Multitap emuláció ezen a porton
   HINT_MTAP_PORT: Válassza ki a portot a Multitap emulációhoz.
-  PADEMU_WORKAROUND:
-  - untranslated
-  - original: Fake DS3 Workaround
-  HINT_PADEMU_WORKAROUND:
-  - untranslated
-  - original: Some fake DS3s need a workaround, this option will enable it.
+  PADEMU_WORKAROUND: Hamis DS3 megoldás
+  HINT_PADEMU_WORKAROUND: Egyes hamis DS3-asoknál átmeneti megoldásra van szükség; ez az opció engedélyezi azt.
   GSM_FIELD_FIX: FIELD flipping emulálása
-  HINT_GSM_FIELD_FIX: Fix azon játékokhoz, melyek hibát produkálnak progresszív videó
-    mód alatt.
+  HINT_GSM_FIELD_FIX: Fix azon játékokhoz, melyek hibát produkálnak progresszív videó mód alatt.
   PARENLOCKCONFIG: Gyerekzár beállítások
   PARENLOCK_PASSWORD: Gyerekzár jelszó
   PARENLOCK_PASSWORD_HINT: Hagyja üresen a gyerekzár kikapcsolásához.
@@ -256,8 +249,7 @@ translations:
   PARENLOCK_DISABLE_WARNING: Gyerekzár kikapcsolva.
   BUILD_DETAILS: 'Build opciók:'
   PARENLOCK_INVALID_PASSWORD: Hiba - ez a jelszó nem használható.
-  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s fájl töredezett. Folytatás a %d foglalatban
-    lévő memóriakártyával?
+  ERR_VMC_FRAGMENTED_CONTINUE: VMC %s fájl töredezett. Folytatás a %d foglalatban lévő memóriakártyával?
   AUDIO_SETTINGS: Hangbeállítások
   SFX: Hangeffektek
   BOOT_SND: Boot effekt
@@ -295,20 +287,12 @@ translations:
   PADMACROCONFIG: PADMACRO beállítása
   PADMACRO_SETTINGS: Padmakró beállítások
   PADMACRO_ENABLE: Padmakrók
-  PADMACRO_SLOWDOWN:
-  - untranslated
-  - original: 'Analog slow-down:'
-  HINT_PADMACRO_SLOWDOWN_AXIS:
-  - untranslated
-  - original: Reduce range of analog stick when button is pressed
+  PADMACRO_SLOWDOWN: 'Analóg lassítás:'
+  HINT_PADMACRO_SLOWDOWN_AXIS: Csökkenti az analóg kar mozgástartományát, amikor a gombot megnyomja
   LEFT_ANALOG: Bal kar
   RIGHT_ANALOG: Jobb kar
-  PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: 'Analog axis invert:'
-  HINT_PADMACRO_INVERT_AXIS:
-  - untranslated
-  - original: Invert analog stick axis
+  PADMACRO_INVERT_AXIS: 'Analóg tengely megfordítása:'
+  HINT_PADMACRO_INVERT_AXIS: Megfordítja a kiválasztott analóg kar irányát.
   TURBO_SPEED: Turbó gomb sebessége
   HINT_TURBO_SPEED: Milyen gyorsan nyomkodja a gombot, ha a turbó aktív
   ACT_WHILE_PRESSED: Amíg a gomb lenyomva van
@@ -332,58 +316,30 @@ translations:
   BGM_VOLUME: Háttérzene hangerő
   DEF_BGM_PATH: Téma alapértelmezett háttérzenéje
   DEF_BGM_PATH_HINT: A belső téma háttérzene útvonala.
-  HDD_HINT:
-  - untranslated
-  - original: Only one HDD allowed, enabling locks APA or GPT.
-  CHEAT_SELECTION:
-  - untranslated
-  - original: Cheat Selection 
+  HDD_HINT: Csak egy merevlemez engedélyezett, APA vagy GPT partíciós rendszerrel.
+  CHEAT_SELECTION: Csalások kiválasztása
   FAV: Kedvencek
   FAVMODE: Kedvencek startmód
   FAV_HINT: Kedvelés
-  FAV_MSG:
-  - untranslated
-  - original: '%s not allowed through Favourites Menu.'
+  FAV_MSG: '%s a Kedvencek menüből nem engedélyezett.'
   CORE_LOADER: Játékmotor
   BDM_DEBUG: BD Debug Log
   MODE7: Mode 7
-  HINT_MODE7:
-  - untranslated
-  - original: Patch IOP Buffer Overrun
-  DISABLE_ALL:
-  - untranslated
-  - original: Disable All
+  HINT_MODE7: IOP-puffer túlcsordulás javítása
+  DISABLE_ALL: Összes letiltása
   ARCHIVEDART: Arhivált Art
   MMCE: MMCE
   MMCE_GAMES: MMCE játékok
   MMCEMODE: MMCE startmód
-  MMCE_PREFIX:
-  - untranslated
-  - original: MMCE Prefix Path 
+  MMCE_PREFIX: MMCE Prefix útvonal
   MMCE_SLOT: MMCE foglalat
-  MMCEIGR_SLOT:
-  - untranslated
-  - original: IGR Bootcard Slot(s)
-  HINT_MMCEIGR_SLOT:
-  - untranslated
-  - original: Switch to bootcard cmd will be sent to the selected slot(s) on IGR
+  MMCEIGR_SLOT: IGR Bootcard foglalat(ok)
+  HINT_MMCEIGR_SLOT: A „bootcard cmd” parancsra való váltás az IGR-en a kiválasztott bővítőhely(ek)re kerül továbbításra
   MMCE_ADVANCED: Haladó
   MMCE_SETTINGS: MMCE beállítások
-  MMCE_SEMA:
-  - untranslated
-  - original: Lock Sema Enqueuing Method
-  HINT_MMCE_SEMA:
-  - untranslated
-  - original: THFIFO may help with compatibility but worsen performance
-  MMCE_WAIT_CYCLES:
-  - untranslated
-  - original: Wait cycles after /ACK low
-  HINT_MMCE_WAIT_CYCLES:
-  - untranslated
-  - original: Lower values may improve performance but result in instabilities
-  MMCE_USE_ALARMS:
-  - untranslated
-  - original: Use timeout alarms
-  HINT_MMCE_USE_ALARMS:
-  - untranslated
-  - original: OFF may help performance but can cause MMCE timeouts to result in freezes
+  MMCE_SEMA: A Séma sorbaállítási módszer zárolása
+  HINT_MMCE_SEMA: A THIFIFO javíthatja a kompatibilitást, de ronthatja a teljesítményt
+  MMCE_WAIT_CYCLES: Várakozási ciklusok az /ACK alacsony szintje után
+  HINT_MMCE_WAIT_CYCLES: Az alacsonyabb értékek javíthatják a teljesítményt, de instabilitást okozhatnak
+  MMCE_USE_ALARMS: Időkorlát-riasztások használata
+  HINT_MMCE_USE_ALARMS: Az OFF beállítás javíthatja a teljesítményt, de az MMCE időtúllépései miatt a rendszer lefagyásához vezethet
