@@ -35,9 +35,7 @@ translations:
   NETWORK_ERROR_LINK_FAIL: '%d: Nincs hálózati kapcsolat'
   'ON': Be
   'OFF': Ki
-  OK:
-  - untranslated
-  - original: OK
+  OK: OK
   SELECT: Kiválaszt
   CANCEL: Vissza
   CIRCLE: Kör
@@ -81,28 +79,20 @@ translations:
   CAT_SMB_SERVER: '- SMB szerver -'
   IP_ADDRESS_TYPE: IP cím típus
   IP_ADDRESS_TYPE_STATIC: Statikus
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_DHCP: DHCP
   IP_ADDRESS: IP cím
   ADDRESS: Cím
   MASK: Maszk
   GATEWAY: Alapértelmezett átjáró
   DNS_SERVER: DNS szerver
-  PORT:
-  - untranslated
-  - original: Port
+  PORT: Port
   SHARE: Megosztás
   USER: Felhasználónév
   PASSWORD: Jelszó
   NOT_SET: <nincs megadva>
   ADDRESS_TYPE: Címtípus
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: IP
+  ADDR_TYPE_NETBIOS: NetBIOS
   ACCEPT: Elfogadás
   DELETE_WARNING: Az elem véglegesen törlésre kerül, folytatja?
   RENAME: Átnevezés
@@ -156,21 +146,15 @@ translations:
   RECONNECT: Újracsatlakozás
   HINT_SHARENAME: Hagyja üresen a megosztások listázásához
   ETH_PREFIX: ETH előtag elérési út
-  BACKSPACE:
-  - untranslated
-  - original: Backspace
+  BACKSPACE: Backspace
   SPACE: Szóköz
-  ENTER:
-  - untranslated
-  - original: Enter
+  ENTER: Enter
   MODE: Mód
   VMC_SLOT1: VMC foglalat 1
   VMC_SLOT2: VMC foglalat 2
   GAME_ID: Játék ID
   DMA_MODE: DMA mód
-  VSYNC:
-  - untranslated
-  - original: V-Sync
+  VSYNC: V-Sync
   MODE1: Mód 1
   MODE2: Mód 2
   MODE3: Mód 3
@@ -184,18 +168,14 @@ translations:
   ETH_10MFDX: 10 Mbit full-duplex
   ETH_10MHDX: 10 Mbit half-duplex
   GSM_SETTINGS: GSM beállítások
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: GSM Selector
   HINT_ENABLEGSM: KI vagy BE kapcsolja a GSM-et
   HINT_GSMVMODE: Kényszerített testreszabott megjelenítési mód
   XOFFSET: Vízszintes-pozíció
   HINT_XOFFSET: Vízszintes szabályozás
   YOFFSET: Függőleges-pozíció
   HINT_YOFFSET: Függőleges szabályozás
-  OVERSCAN:
-  - untranslated
-  - original: Overscan
+  OVERSCAN: Overscan
   HINT_OVERSCAN: Overscan beállítása
   GSMSKIPVIDEOS: FMV átugrása
   HINT_GSMSKIPVIDEOS: Átugorja a Full Motion videókat
@@ -229,21 +209,13 @@ translations:
   HINT_PADEMU_ENABLE: Be/ki kapcsolja a PadEmulátor-t a kiválaszott játékhoz.
   PADEMU_MODE: Pad Emulátor mód
   HINT_PADEMU_MODE: Válassza ki a PadEmulátor módját.
-  DS34USB_MODE:
-  - untranslated
-  - original: DualShock3/4 USB
-  DS34BT_MODE:
-  - untranslated
-  - original: DualShock3/4 BT
+  DS34USB_MODE: DualShock3/4 USB
+  DS34BT_MODE: DualShock3/4 BT
   PADPORT: 'Port beállítások:'
   HINT_PAD_PORT: Válassza ki a PadEmulátor portot a beállításokhoz.
-  PADEMU_PORT:
-  - untranslated
-  - original: Emulation
+  PADEMU_PORT: Emulation
   HINT_PADEMU_PORT: Be/ki kapcsolja a PadEmulátor-t a kiválasztott porthoz.
-  PADEMU_VIB:
-  - untranslated
-  - original: Vibration
+  PADEMU_VIB: Rezgés
   HINT_PADEMU_VIB: Be/ki kapcsolja a rezgést a PadEmulátor kiválasztott portjához.
   USBDG_MAC: 'USB bluetooth adapter mac címe:'
   PAD_MAC: 'DS kontroller a következő MAC címhez párosítva:'
@@ -263,9 +235,7 @@ translations:
     a DS3/DS4 kontrollerekkel.
   BT_NOTSUPPORTED: A Bluetooth adapter nem biztos, hogy megfelelően fog működni DS3/DS4
     kontrollerekkel.
-  MTAP_ENABLE:
-  - untranslated
-  - original: Multitap Emulation
+  MTAP_ENABLE: Multitap emuláció
   HINT_MTAP_ENABLE: Ki/be kapcsolja a Multitap emulációt a kiválasztott játékhoz.
   MTAP_PORT: Multitap emuláció ezen a porton
   HINT_MTAP_PORT: Válassza ki a portot a Multitap emulációhoz.
@@ -374,12 +344,8 @@ translations:
   FAV_MSG:
   - untranslated
   - original: '%s not allowed through Favourites Menu.'
-  CORE_LOADER:
-  - untranslated
-  - original: Loader Core
-  BDM_DEBUG:
-  - untranslated
-  - original: BD Debug Log
+  CORE_LOADER: Játékmotor
+  BDM_DEBUG: BD Debug Log
   MODE7: Mode 7
   HINT_MODE7:
   - untranslated
